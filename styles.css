@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#hero h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+/* Features Section */
+#features {
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature i {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
